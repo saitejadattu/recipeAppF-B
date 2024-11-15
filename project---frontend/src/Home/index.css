@@ -1,0 +1,52 @@
+.home-container {
+    min-height: 100vh;
+    max-height: 1000vh;
+    background: linear-gradient(to right, rgb(227, 188, 81), rgb(216, 126, 7));
+}
+
+.recipes-container {
+    padding: 30px;
+}
+
+.unorder-recipe-list {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe-list-item {
+    padding-left: 30px;
+    background-color: #e8dcdc;
+    color: black;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.api-button {
+    color: #ffffff;
+    text-shadow: 0 0 5px #1e1d1d;
+    background-color: rgb(22, 22, 216);
+    gap: 0px;
+    border: 0px;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    align-self: center;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-bottom: 5px;
+}
+span{
+    font-weight:600;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

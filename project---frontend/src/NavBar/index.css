@@ -1,0 +1,14 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.home-button{
+    border: 0px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+}

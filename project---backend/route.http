@@ -1,0 +1,67 @@
+GET https://deploying-backend-10.onrender.com/user
+
+###
+POST https://deploying-backend-10.onrender.com/user/signup
+Content-Type: application/json
+
+{
+    "username": "teja",
+    "email": "teja1@gmail.com",
+    "password": "teja0#"
+}
+
+###
+POST http://localhost:3005/user/login 
+Content-Type: application/json
+
+{
+    "email": "teja1@gmail.com",
+    "password": "teja0#"
+}
+
+###
+GET http://localhost:3005/recipe/get/67354ee61db30f5245cd66b7
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.NjczNTRlZTYxZGIzMGY1MjQ1Y2Q2NmI3.4GXQMZw9ldAfplZcryyN_Ka3knjLncLYEX2dUbqAvx4
+
+###
+GET http://localhost:3005/recipe/get/67354ee61db30f5245cd66b7/67356176651322273da9d52c
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.NjczNTRlZTYxZGIzMGY1MjQ1Y2Q2NmI3.4GXQMZw9ldAfplZcryyN_Ka3knjLncLYEX2dUbqAvx4
+###
+POST http://localhost:3005/recipe/post/67355ccf5d06e22adc0b47b2
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.NjczNTRjZjFlZmJmMmRhNTM2MGM2YWZj.RkAxXLtkmwKvgxwX6K3ynA2cWjsmJRoKYdp2Vxvo0Uw
+Content-Type: application/json
+
+{
+    "title": "Soya wadi",
+    "ingredients": [
+        "1 cup soya chunks",
+        "1 onion, chopped",
+        "2 tomatoes, chopped",
+        "1 tbsp ginger-garlic paste",
+        "1/2 tsp turmeric powder",
+        "1 tsp red chili powder",
+        "1/2 tsp cumin seeds",
+        "1 tsp coriander powder",
+        "2 cups water",
+        "Salt to taste",
+        "2 tbsp oil"
+    ],
+    "instructions": "Boil soya chunks. Heat oil, temper cumin seeds, sauté onions, add ginger-garlic paste, then tomatoes and spices. Add water, simmer and cook for 10 minutes.",
+    "category": "Dinner",
+    "cooking_time": 20
+}
+
+
+
+###
+PUT http://localhost:3005/recipe/put/67354ee61db30f5245cd66b7/67354f0d1db30f5245cd66bc
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.NjczMzVkNmU2ZmRlMzFjNWJiNDVlOTA3.p6btZBjE3xLd9ucvE06AYmdxh71ugUTBh7qTnzcAf7o
+Content-Type: application/json
+
+{
+    "title": "tomoto Curry"
+}
+
+###
+DELETE http://localhost:3005/recipe/delete/67354ee61db30f5245cd66b7/67354f0d1db30f5245cd66bc
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.NjczMzVkNmU2ZmRlMzFjNWJiNDVlOTA3.p6btZBjE3xLd9ucvE06AYmdxh71ugUTBh7qTnzcAf7o

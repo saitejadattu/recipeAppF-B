@@ -1,0 +1,34 @@
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 80%;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(227, 188, 81), rgb(216, 126, 7));
+}
+.login-heading{
+    color: white;
+}
+input{
+    outline: none;
+    border-radius: 5px;
+    border: 0px;
+    padding: 15px;
+}
+.submit-button{
+    height: 50px;
+    width: 100px;
+    border: 0px;
+    border-radius: 5px;
+    align-self: center;
+    color: white;
+    background-color: rgb(69, 69, 233);
+}

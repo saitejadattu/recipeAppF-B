@@ -1,0 +1,9 @@
+.not-found-container {
+    height: 100vh;
+    background-image: url("https://res.cloudinary.com/dpbbisfud/image/upload/v1731574850/404-picture-not-found_nsmxdz.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

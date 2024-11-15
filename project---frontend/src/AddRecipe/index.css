@@ -1,0 +1,37 @@
+.add-container{
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, rgb(227, 188, 81), rgb(216, 126, 7));
+}
+.add-form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-container{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.button-add{
+    color: #ffffff;
+    text-shadow: 0 0 5px #1e1d1d;
+    background-color: rgb(22, 22, 216);
+    gap: 0px;
+    border: 0px;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+    align-self: flex-end;
+    text-align: center;
+    margin-right: 5px;
+}
+label{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #373737;
+}
